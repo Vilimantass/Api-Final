@@ -1,6 +1,13 @@
 import React from 'react'
 
-const SectionGroup = ({title, pharagraph, image, altImage}) => {
+const SectionGroup = ({title, pharagraph, linkTo, image, alt}) => {
+
+
+    if (!title) {
+        return;
+      }  
+
+
   return (
     
     <div className="section-group">
@@ -9,11 +16,10 @@ const SectionGroup = ({title, pharagraph, image, altImage}) => {
               <h2>{title}</h2>
             </div>
             <div className="section-about">
-              <p>{pharagraph}}</p>
+              <p>{pharagraph}</p>
             </div>
           </div>
-          <div className="section-tab"><a className="img-section" href={image}><img src={altImage} alt="Švenčių foto" /></a></div>
-          {/* <!-- <div className="section-img"><img src="#" alt="Švenčių foto"/></div> --> */}
+          <div className="section-tab"><a className="img-section" href={linkTo}><img src={image} alt={alt} /></a></div>
 
         </div>
 

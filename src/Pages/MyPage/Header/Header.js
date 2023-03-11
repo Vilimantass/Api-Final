@@ -4,7 +4,7 @@ import MyPhotoLogo from '../../../MyImages/MyPhotoLogo.webp'
 const Header = () => {
   return (
     <div className='header'>
-        <a className="main-logo" href="Pagrindinis.html"><img src={MyPhotoLogo} alt="Photo Logo" /></a>
+        <a className="main-logo" href="#"><img src={MyPhotoLogo} alt="Photo Logo" /></a>
 
 
         <nav className="main">
