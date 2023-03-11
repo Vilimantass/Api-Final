@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Route, Routes, } from 'react-router-dom'
+
+import MainNav from './Pages/MainNav/MainNav';
+
+import Main from './Pages/Main/Main';
+import MyPage from './Pages/MyPage/MyPage';
+import MyApi from './Pages/MyApi/MyApi';
+import Figma from './Pages/Figma/Figma';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <MainNav />
+
+      <Routes>
+
+        <Route path='/main' element={<Main />} />
+        <Route path='/mypage' element={<MyPage />} />
+        <Route path='/figma' element={<Figma />} />
+        <Route path='/myapi' element={<MyApi />} />
+
+        {/* <div>
+          <h1>404 error. Page not found</h1>
+          <Link to='/'>Back to Home page</Link>
+        </div> */}
+
+      </Routes>
+
+
     </div>
   );
 }
