@@ -4,7 +4,7 @@ import './Main.scss'
 const Main = () => {
     return (
         <div>
-            <h1>Final Project</h1>
+            <h1 className='title'>Final Project</h1>
         </div>
     )
 }

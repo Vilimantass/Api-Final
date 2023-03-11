@@ -1,0 +1,159 @@
+
+
+.page {
+    background-color: rgb(105, 126, 146);
+    /* max-width: 2560px; */
+    font-family: Garamond;
+}
+    
+.header {
+
+    background-image: url(../../MyImages/Header.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px 20px;
+    margin: 20px 50px;
+
+
+    .main-logo {
+
+        display: flex;
+        justify-content: center;
+        filter: drop-shadow(5px 10px 4px black);
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        /* position: absolute;
+        top: 100px;
+        left: 1110px; */
+    
+    
+    }
+    
+    .main-logo:hover {
+        filter: drop-shadow(7px 12px 5px black);
+    }
+    
+    
+    .main-menu {
+    
+        max-width: 2560px;
+        display: flex;
+        justify-content: center;
+        gap: 15px 15px;
+        align-items: center;
+        list-style-type: none;
+        background-color: rgba($color: #95d1ce, $alpha: 0.5);
+        
+        
+        /* position: absolute; */
+        
+    }
+    
+    .menu-value {
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
+        font-family: Garamond;
+        font-size: 200%;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    
+        filter: drop-shadow(2px 0px 0px rgb(255, 255, 255));
+      
+    }
+    
+    .menu-value:hover {
+    
+        filter: drop-shadow(0px 0px 5px white);
+    }
+    
+}
+
+
+.main-section {
+
+    max-width: 2560px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* box-shadow: 0px 0px 5px 2px black; */
+    margin: 50px;
+    gap: 50px;
+}
+
+.section-group {
+
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+    display: flex;
+
+    
+    
+
+}
+
+.section-group:hover {
+
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+
+.section-group :nth-child(1) {
+
+    width: 50%;
+    display: flex;
+    
+    
+    
+}
+
+.text-section {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.text-section :nth-child(1) {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+   
+   
+}
+
+.section-title h2 {
+    
+    font-size: 25px;
+}
+
+
+
+
+.section-group :nth-child(2) {
+
+    width: 50%;
+}
+
+.section-tab :nth-child(1){
+
+    
+    max-height: 100%;
+    min-width: 100%;
+
+}
+
+.text-section :nth-child(2) {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+
+
+}
