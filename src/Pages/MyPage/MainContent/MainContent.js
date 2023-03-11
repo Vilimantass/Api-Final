@@ -2,39 +2,44 @@ import React from 'react'
 import SectionGroup from './SectionGroup'
 
 
-const MainContent = () => {
+function MainContent() {
 
     const MainSectionGroup = [
 
         {
             title: "Šventės",
             pharagraph: "Svarbiausios jūsų dienos",
-            image: "#"
-            altImage: "Švenčių foto"
+            linkTo: "/Wedding",
+            image: "",
+            alt: "Švenčių foto"
         },
         {
             title: "Portretai",
             pharagraph: "Jūsų diena sau",
-            image: "#"
-            altImage: "Portretų foto"
+            linkTo: "#",
+            image: "",
+            alt: "Portretų foto"
         },
         {
             title: "Produktai",
             pharagraph: "Jūsų produktai ir gaminiai",
-            image: "#"
-            altImage: "Produktų foto"
+            linkTo: "#",
+            image: "",
+            alt: "Produktų foto"
         },
         {
             title: "Gamta",
             pharagraph: "Sugįžtant į gamtą",
-            image: "#"
-            altImage: "Gamtos foto"
+            linkTo: "#",
+            image: "",
+            alt: "Gamtos foto",
         },
         {
             title: "Miestas",
             pharagraph: "Prabėgant pro miestą",
-            image: "#"
-            altImage: "Miesto foto"
+            linkTo: "#",
+            image: "",
+            alt: "Miesto foto"
         },
 
     ];
@@ -44,12 +49,13 @@ const MainContent = () => {
         <SectionGroup
         title={item.title}
         pharagraph={item.pharagraph}
+        linkTo={item.linkTo}
         image={item.image}
-        altImage={item.altImage}
         key={index}
         />
     ))
 
+  
 
   return (
 
@@ -60,77 +66,7 @@ const MainContent = () => {
 
 
 
-            {/* <div className="section-group">
-          <div className="text-section">
-            <div className="section-title">
-              <h2>Šventės</h2>
-            </div>
-            <div className="section-about">
-              <p>Svarbiausios jūsų dienos</p>
-            </div>
-          </div>
-          <div className="section-tab"><a className="img-section" href="Šventės.html"><img src="Šventės 1.jpg" alt="Švenčių foto" /></a></div>
-         
-
-        </div>
-
-        <div className="section-group">
-
-          <div className="text-section">
-            <div className="section-title">
-              <h2>Portretai</h2>
-            </div>
-            <div className="section-about">
-              <p>Jūsų diena sau</p>
-            </div>
-          </div>
-
-          <div className="section-tab"><a href="#"><img src="Portretai 1.jpg" alt="Portretų foto" /></a></div>
-          
-
-        </div>
-
-        <div className="section-group">
-          <div className="text-section">
-            <div className="section-title">
-              <h2>Produktai</h2>
-            </div>
-            <div className="section-about">
-              <p>Jūsų produktai ir gaminiai </p>
-            </div>
-          </div>
-          <div className="section-tab"><a href="#"><img src="pagalvės.jpg" alt="Produktų foto" /></a></div>
-         
-
-        </div>
-
-        <div className="section-group">
-          <div className="text-section">
-            <div className="section-title">
-              <h2>Gamta</h2>
-            </div>
-            <div className="section-about">
-              <p>Sugrįžtant į gamtą</p>
-            </div>
-          </div>
-          <div className="section-tab"><a href="#"><img src="Gamta 2.jpg" alt="Gamtos foto" /></a></div>
-       
-
-        </div>
-
-        <div className="section-group">
-          <div className="text-section">
-            <div className="section-title">
-              <h2>Miestas</h2>
-            </div>
-            <div className="section-about">
-              <p>Prabėgant pro miestą</p>
-            </div>
-          </div>
-          <div className="section-tab"><a href="#"><img src="Miestas 1.jpg" alt="Miesto foto" /></a></div>
-         
-
-        </div> */}
+            
         </div>
 
     )
