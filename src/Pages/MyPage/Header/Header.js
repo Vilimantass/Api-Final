@@ -1,22 +1,33 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import MyPhotoLogo from '../../../MyImages/MyPhotoLogo.webp'
 
 const Header = () => {
   return (
     <div className='header'>
-        <a className="main-logo" href="#"><img src={MyPhotoLogo} alt="Photo Logo" /></a>
+      <NavLink className="main-logo" to='/mypage'><img src={MyPhotoLogo} alt="Photo Logo" /></NavLink>
 
 
-        <nav className="main">
-          <ul className="main-menu">
-            <li className="menu-item"></li><a className="menu-value" href="Šventės.html">Šventės</a>
-            <li className="menu-item"></li><a className="menu-value" href="Portretai.html">Portretai</a>
-            <li className="menu-item"></li><a className="menu-value" href="Produktai.html">Produktai</a>
-            <li className="menu-item"></li><a className="menu-value" href="Gamta.html">Gamta</a>
-            <li className="menu-item"></li><a className="menu-value" href="Miestas.html">Miestas</a>
-          </ul>
-        </nav>
-      </div>
+      <nav className="main">
+        <ul className="main-menu">
+          <li className="menu-item">
+            <NavLink className="menu-value" to='/mypage/wedding'>Šventės</NavLink>
+            </li>
+          <li className="menu-item">
+            <NavLink className="menu-value" to='/mypage/Portrait'>Portretai</NavLink>
+            </li>
+          <li className="menu-item">
+            <NavLink className="menu-value" to='/mypage/Product'>Produktai</NavLink>
+            </li>
+          <li className="menu-item">
+            <NavLink className="menu-value" to='/mypage/Nature'>Gamta</NavLink>
+            </li>
+          <li className="menu-item">
+            <NavLink className="menu-value" to='/mypage/City'>Miestas</NavLink>
+            </li>
+        </ul>
+      </nav>
+    </div>
   )
 }
 

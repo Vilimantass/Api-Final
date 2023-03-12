@@ -1,8 +1,15 @@
 import React from 'react'
+import Header from '../Header/Header'
+import Container from '../../../components/Container/Container'
 
 const Portrait = () => {
   return (
-    <div>Portrait</div>
+    <div className='page'>
+       <Container>
+        <Header />
+      </Container>
+
+  </div>
   )
 }
 
