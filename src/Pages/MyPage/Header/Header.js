@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import MyPhotoLogo from '../../../MyImages/MyPhotoLogo.webp'
+import './Header.scss'
 
 const Header = () => {
   return (
