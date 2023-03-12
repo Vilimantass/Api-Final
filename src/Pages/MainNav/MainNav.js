@@ -7,7 +7,7 @@ const MainNav = () => {
 
         <ul className='main-navigation'>
             <li>
-                <NavLink className='navItem' to='/main'>Main Page</NavLink>
+                <NavLink className='navItem' to='/'>Main Page</NavLink>
             </li>
             <li>
                 <NavLink className='navItem' to='/mypage'>My Photo Portfolio</NavLink>

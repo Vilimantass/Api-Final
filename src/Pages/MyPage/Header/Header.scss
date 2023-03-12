@@ -15,6 +15,7 @@
         margin-top: 20px;
         margin-bottom: 50px;
         padding-top: 50px;
+        
         /* position: absolute;
         top: 100px;
         left: 1110px; */
@@ -23,7 +24,8 @@
     }
     
     .main-logo:hover {
-        filter: drop-shadow(7px 12px 5px black);
+        filter: drop-shadow(7px 20px 5px black);
+        transition-duration: 250ms;
     }
     
     
@@ -36,6 +38,7 @@
         align-items: center;
         list-style-type: none;
         background-color: rgba($color: #95d1ce, $alpha: 0.5);
+        filter: drop-shadow(7px 20px 5px black);
         
         
         /* position: absolute; */

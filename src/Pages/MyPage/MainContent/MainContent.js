@@ -1,5 +1,11 @@
 import React from 'react'
 import SectionGroup from './SectionGroup'
+import wedding from '../../../MyImages/Šventės1.jpg'
+import portrait from '../../../MyImages/Portretai1.jpg'
+import product from '../../../MyImages/pagalvės.jpg'
+import nature from '../../../MyImages/Gamta1.jpg'
+import city from '../../../MyImages/Miestas1.jpg'
+import './MainContent.scss'
 
 
 function MainContent() {
@@ -9,36 +15,36 @@ function MainContent() {
         {
             title: "Šventės",
             pharagraph: "Svarbiausios jūsų dienos",
-            linkTo: "/Wedding",
-            image: "",
+            linkTo: "/mypage/wedding",
+            image: wedding,
             alt: "Švenčių foto"
         },
         {
             title: "Portretai",
             pharagraph: "Jūsų diena sau",
-            linkTo: "#",
-            image: "",
+            linkTo: "/mypage/portrait",
+            image: portrait,
             alt: "Portretų foto"
         },
         {
             title: "Produktai",
             pharagraph: "Jūsų produktai ir gaminiai",
-            linkTo: "#",
-            image: "",
+            linkTo: "/mypage/product",
+            image: product,
             alt: "Produktų foto"
         },
         {
             title: "Gamta",
             pharagraph: "Sugįžtant į gamtą",
-            linkTo: "#",
-            image: "",
+            linkTo: "/mypage/nature",
+            image: nature,
             alt: "Gamtos foto",
         },
         {
             title: "Miestas",
             pharagraph: "Prabėgant pro miestą",
-            linkTo: "#",
-            image: "",
+            linkTo: "/mypage/city",
+            image: city,
             alt: "Miesto foto"
         },
 
