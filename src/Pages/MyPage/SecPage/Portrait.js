@@ -13,6 +13,7 @@ import image7 from '../../../MyImages/Portrait/rsz_1wil_3659.jpg'
 import image8 from '../../../MyImages/Portrait/rsz_1wil_5627.jpg'
 import image9 from '../../../MyImages/Portrait/rsz_dsc_1414.jpg'
 import image10 from '../../../MyImages/Portrait/rsz_dsc_3490_sharp.jpg'
+import Footer from '../Footer/Footer'
 
 const Portrait = () => {
 
@@ -70,6 +71,8 @@ const Portrait = () => {
         <div className='photoItem'>
           <PortraitItem />{items}
         </div>
+
+        <Footer />
 
         </Container>
 
