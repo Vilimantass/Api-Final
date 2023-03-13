@@ -1,7 +1,7 @@
 
 // import React from 'react'
 import { useState } from 'react'
-import './PortraitItem.scss'
+import './ImageGallery.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleChevronLeft, faCircleChevronRight, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 
@@ -27,7 +27,7 @@ import { faCircleChevronLeft, faCircleChevronRight, faCircleXmark } from '@forta
 
 import React from 'react'
 
-const PortraitItem = ({ galleryImages }) => {
+const ImageGallery = ({ galleryImages }) => {
 
   const [slideNumber, setSlideNumber] = useState(0)
   const [openModal, setOpenModal] = useState(false)
@@ -104,4 +104,4 @@ const PortraitItem = ({ galleryImages }) => {
   )
 }
 
-export default PortraitItem
+export default ImageGallery

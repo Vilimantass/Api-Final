@@ -23,9 +23,7 @@ const Header = () => {
           <li className="menu-item">
             <NavLink className="menu-value" to='/mypage/Nature'>Gamta</NavLink>
             </li>
-          <li className="menu-item">
-            <NavLink className="menu-value" to='/mypage/City'>Miestas</NavLink>
-            </li>
+      
         </ul>
       </nav>
     </div>

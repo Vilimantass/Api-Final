@@ -12,12 +12,12 @@ const MainNav = () => {
             <li>
                 <NavLink className='navItem' to='/mypage'>My Photo Portfolio</NavLink>
             </li>
-            <li>
+            {/* <li>
                 <NavLink className='navItem' to='/figma'>Figma</NavLink>
             </li>
             <li>
                 <NavLink className='navItem' to='/myapi'>My Api</NavLink>
-            </li>
+            </li> */}
 
         </ul>
     )

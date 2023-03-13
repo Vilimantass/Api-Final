@@ -11,11 +11,10 @@ import Wedding from './Pages/MyPage/SecPage/Wedding';
 import Portrait from './Pages/MyPage/SecPage/Portrait';
 import Product from './Pages/MyPage/SecPage/Product';
 import Nature from './Pages/MyPage/SecPage/Nature';
-import City from './Pages/MyPage/SecPage/City';
 
 
-import MyApi from './Pages/MyApi/MyApi';
-import Figma from './Pages/Figma/Figma';
+
+
 
 
 
@@ -35,11 +34,10 @@ function App() {
         <Route path='/mypage/portrait' element={<Portrait />} />
         <Route path='/mypage/product' element={<Product />} />
         <Route path='/mypage/nature' element={<Nature />} />
-        <Route path='/mypage/city' element={<City />} />
+       
 
 
-        <Route path='/figma' element={<Figma />} />
-        <Route path='/myapi' element={<MyApi />} />
+     
 
         {/* <div>
           <h1>404 error. Page not found</h1>

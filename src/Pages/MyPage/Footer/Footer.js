@@ -1,20 +1,22 @@
 import React from 'react'
+import FbLogo from '../../../Logos/social-facebook-icon.png'
+import './Footer.scss'
 
 export const Footer = () => {
     return (
 
         <footer>
-            <div>
+            <div className='footerWrapper'>
                 <div>
                     <h3>Susisiekite su manimi</h3>
                 </div>
                 <div>
-                    <p>telefonu <a href="tel: +3706*******"> +3706******* </a> </p>
+                    <p>Telefonu <a href="tel: +3706*******"> +3706******* </a> </p>
                 </div>
                 <div>
-                    <p>el.paštu <a href="vilimantas****@gmail.com"> vilimantas****@gmail.com</a> </p>
+                    <p>El.paštu <a href="vilimantas****@gmail.com"> vilimantas****@gmail.com</a> </p>
                 </div>
-                <div><a href="https://www.facebook.com/"><img src="facebook-icon.png" alt="Facebook" /></a>
+                <div><a href="https://www.facebook.com/"><img src={FbLogo} alt="Facebook" /></a>
                 </div>
 
             </div>

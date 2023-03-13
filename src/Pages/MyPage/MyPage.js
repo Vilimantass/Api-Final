@@ -10,15 +10,12 @@ import MainContent from './MainContent/MainContent'
 const MyPage = () => {
   return (
     <div className='page'>
+
+      <Header />
       <Container>
-        <Header />
-
-
         <MainContent />
-        <Footer />
-
       </Container>
-
+      <Footer />
     </div>
   )
 }

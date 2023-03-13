@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import Container from '../../../components/Container/Container'
-import PortraitItem from '../../MyPage/SecPage/PortraitItem'
+import ImageGallery from '../../../components/ImageGallery/ImageGallery'
 
 import image1 from '../../../MyImages/Wedding/VIL_3151.jpg'
 import image2 from '../../../MyImages/Wedding/VIL_1546.jpg'
@@ -64,21 +64,16 @@ const Wedding = () => {
   return (
     <div className='page'>
 
+      <Header />
       <Container>
-
-        <Header />
-
         <div className='photoItem'>
           {/* <WeddingItem />{items} */}
-          <PortraitItem
-          galleryImages={galleryImages}
+          <ImageGallery
+            galleryImages={galleryImages}
           />
         </div>
-
-        <Footer />
-
-        </Container>
-
+      </Container>
+      <Footer />
 
 
 

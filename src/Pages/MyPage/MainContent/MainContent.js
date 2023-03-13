@@ -40,13 +40,6 @@ function MainContent() {
             image: nature,
             alt: "Gamtos foto",
         },
-        {
-            title: "Miestas",
-            pharagraph: "Prabėgant pro miestą",
-            linkTo: "/mypage/city",
-            image: city,
-            alt: "Miesto foto"
-        },
 
     ];
 

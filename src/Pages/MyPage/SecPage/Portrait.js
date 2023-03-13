@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import Container from '../../../components/Container/Container'
-import PortraitItem from './PortraitItem'
+import ImageGallery from '../../../components/ImageGallery/ImageGallery'
 
 import image1 from '../../../MyImages/Portrait/rsz_1vf8_0287-2.jpg'
 import image2 from '../../../MyImages/Portrait/rsz_2wil_9729_pp.jpg'
@@ -52,35 +52,21 @@ const Portrait = () => {
 
   ];
 
-  // const items = PortraitItems.map((item, index) => (
-
-  //   <PortraitItem
-  //     image={item.image}
-  //     key={index}
-  //   />
-  // ))
 
 
   return (
     <div className='page'>
 
+      <Header />
       <Container>
-
-        <Header />
-
         <div className='photoItem'>
-          {/* <PortraitItem />{items} */}
-          <PortraitItem
-          galleryImages={galleryImages}
+          {/* <ImageGallery />{items} */}
+          <ImageGallery
+            galleryImages={galleryImages}
           />
         </div>
-
-        <Footer />
-
-        </Container>
-
-
-
+      </Container>
+      <Footer />
 
     </div>
   )
