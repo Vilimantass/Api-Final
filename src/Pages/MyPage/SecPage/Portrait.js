@@ -17,7 +17,7 @@ import Footer from '../Footer/Footer'
 
 const Portrait = () => {
 
-  const PortraitItems = [
+  const galleryImages = [
 
     {
       image: image1,
@@ -52,13 +52,13 @@ const Portrait = () => {
 
   ];
 
-  const items = PortraitItems.map((item, index) => (
+  // const items = PortraitItems.map((item, index) => (
 
-    <PortraitItem
-      image={item.image}
-      key={index}
-    />
-  ))
+  //   <PortraitItem
+  //     image={item.image}
+  //     key={index}
+  //   />
+  // ))
 
 
   return (
@@ -69,7 +69,10 @@ const Portrait = () => {
         <Header />
 
         <div className='photoItem'>
-          <PortraitItem />{items}
+          {/* <PortraitItem />{items} */}
+          <PortraitItem
+          galleryImages={galleryImages}
+          />
         </div>
 
         <Footer />
