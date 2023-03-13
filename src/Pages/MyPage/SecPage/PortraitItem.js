@@ -3,11 +3,7 @@
 import { useState } from 'react'
 import './PortraitItem.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faCircleChevronLeft,
-  faCircleChevronRight,
-  faCircleXmark
-} from '@fortawesome/free-solid-svg-icons'
+import { faCircleChevronLeft, faCircleChevronRight, faCircleXmark } from '@fortawesome/free-solid-svg-icons'
 
 
 // function PortraitItem({image}) {

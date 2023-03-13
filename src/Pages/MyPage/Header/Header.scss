@@ -33,12 +33,14 @@
     
         max-width: 2560px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 15px 15px;
         align-items: center;
         list-style-type: none;
         background-color: rgba($color: #95d1ce, $alpha: 0.5);
         filter: drop-shadow(7px 20px 5px black);
+        padding: 0;
         
         
         /* position: absolute; */
