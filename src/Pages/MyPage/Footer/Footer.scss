@@ -1,26 +1,45 @@
-
-
 .footerWrapper {
 
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-justify-content: space-evenly;
-// background-image: url(../../../MyImages/Header.jpg);
-background-position: center;
-background-size: cover;
-padding: 20px 20px;
-margin: 20px 0px;
-color: white;
-background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    // background-image: url(../../../MyImages/Header.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 20px 0px;
+    color: white;
+    background-color: rgb(17, 17, 17);
 
+
+    @media screen and (max-width: 1300px) {
+
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+
+    @media screen and (max-width: 950px) {
+
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    @media screen and (max-width: 800px) {
+
+        padding-left: 18%;
+        padding-right: 18%;
+    }
 
     
 
     .myInfo {
 
         color: #95d1ce;
-        
+
     }
 }
