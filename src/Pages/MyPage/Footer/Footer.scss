@@ -8,11 +8,16 @@
     // background-image: url(../../../MyImages/Header.jpg);
     background-position: center;
     background-size: cover;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin: 20px 0px;
+    padding: 30px 30px;
+    margin-top: 40px;
+    // margin: 20px 0px;
     color: white;
     background-color: rgb(17, 17, 17);
+
+    &:hover {
+
+        background-color: rgb(15, 15, 15);
+    }
 
 
     @media screen and (max-width: 1300px) {

@@ -22,19 +22,19 @@ function App() {
   return (
     <div className='App'>
       <ScrollTopButton />
-      <MainNav />
+      {/* <MainNav /> */}
 
       <Routes>
 
         <Route path='/' element={<Main />} />
 
-        <Route path='/mypage' element={<MyPage />} />
+        <Route path='/vilimantas' element={<MyPage />} />
 
 
-        <Route path='/mypage/wedding' element={<Wedding />} />
-        <Route path='/mypage/portrait' element={<Portrait />} />
-        <Route path='/mypage/product' element={<Product />} />
-        <Route path='/mypage/nature' element={<Nature />} />
+        <Route path='/vilimantas/wedding' element={<Wedding />} />
+        <Route path='/vilimantas/portrait' element={<Portrait />} />
+        <Route path='/vilimantas/product' element={<Product />} />
+        <Route path='/vilimantas/nature' element={<Nature />} />
        
 
 
