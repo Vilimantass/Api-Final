@@ -11,7 +11,7 @@ import Wedding from './Pages/MyPage/SecPage/Wedding';
 import Portrait from './Pages/MyPage/SecPage/Portrait';
 import Product from './Pages/MyPage/SecPage/Product';
 import Nature from './Pages/MyPage/SecPage/Nature';
-
+import ScrollTopButton from './components/ScrollTopButton/ScrollTopButton';
 
 
 
@@ -21,6 +21,7 @@ import Nature from './Pages/MyPage/SecPage/Nature';
 function App() {
   return (
     <div className='App'>
+      <ScrollTopButton />
       <MainNav />
 
       <Routes>
