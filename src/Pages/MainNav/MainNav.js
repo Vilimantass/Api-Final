@@ -6,12 +6,12 @@ const MainNav = () => {
     return (
 
         <ul className='main-navigation'>
-            <li>
+            {/* <li>
                 <NavLink className='navItem' to='/'>Main Page</NavLink>
             </li>
             <li>
                 <NavLink className='navItem' to='/mypage'>My Photo Portfolio</NavLink>
-            </li>
+            </li> */}
             {/* <li>
                 <NavLink className='navItem' to='/figma'>Figma</NavLink>
             </li>

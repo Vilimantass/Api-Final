@@ -26,15 +26,15 @@ function App() {
 
       <Routes>
 
-        <Route path='/' element={<Main />} />
+        {/* <Route path='/' element={<Main />} /> */}
 
-        <Route path='/vilimantas' element={<MyPage />} />
+        <Route path='/' element={<MyPage />} />
 
 
-        <Route path='/vilimantas/wedding' element={<Wedding />} />
-        <Route path='/vilimantas/portrait' element={<Portrait />} />
-        <Route path='/vilimantas/product' element={<Product />} />
-        <Route path='/vilimantas/nature' element={<Nature />} />
+        <Route path='/wedding' element={<Wedding />} />
+        <Route path='/portrait' element={<Portrait />} />
+        <Route path='/product' element={<Product />} />
+        <Route path='/nature' element={<Nature />} />
        
 
 
