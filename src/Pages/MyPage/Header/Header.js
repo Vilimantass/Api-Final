@@ -11,9 +11,9 @@ const Header = () => {
 
       <nav className="main">
         <ul className="main-menu">
-          <li className="menu-item">
+          {/* <li className="menu-item">
             <NavLink className="menu-value" to='/my-page'>Pagrindinis</NavLink>
-          </li>
+          </li> */}
           <li className="menu-item">
             <NavLink className="menu-value" to='/my-page/wedding'>Šventės</NavLink>
           </li>
