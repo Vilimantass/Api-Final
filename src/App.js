@@ -2,9 +2,9 @@
 import './App.css';
 import { Route, Routes, } from 'react-router-dom'
 
-import MainNav from './Pages/MainNav/MainNav';
+// import MainNav from './Pages/MainNav/MainNav';
 
-import Main from './Pages/Main/Main';
+// import Main from './Pages/Main/Main';
 import MyPage from './Pages/MyPage/MyPage';
 
 import Wedding from './Pages/MyPage/SecPage/Wedding';
@@ -28,13 +28,13 @@ function App() {
 
         {/* <Route path='/' element={<Main />} /> */}
 
-        <Route path='/my-page/' element={<MyPage />} />
+        <Route path='/my-page' element={<MyPage />} />
 
 
-        <Route path='/my-page/wedding' element={<Wedding />} />
-        <Route path='/my-page/portrait' element={<Portrait />} />
-        <Route path='/my-page/product' element={<Product />} />
-        <Route path='/my-page/nature' element={<Nature />} />
+        <Route path='/wedding' element={<Wedding />} />
+        <Route path='/portrait' element={<Portrait />} />
+        <Route path='/product' element={<Product />} />
+        <Route path='/nature' element={<Nature />} />
        
 
 

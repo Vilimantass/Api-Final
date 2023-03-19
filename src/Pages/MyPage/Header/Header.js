@@ -15,16 +15,16 @@ const Header = () => {
             <NavLink className="menu-value" to='/my-page'>Pagrindinis</NavLink>
           </li>
           <li className="menu-item">
-            <NavLink className="menu-value" to='/my-page/wedding'>Šventės</NavLink>
+            <NavLink className="menu-value" to='/wedding'>Šventės</NavLink>
           </li>
           <li className="menu-item">
-            <NavLink className="menu-value" to='/my-page/portrait'>Portretai</NavLink>
+            <NavLink className="menu-value" to='/portrait'>Portretai</NavLink>
           </li>
           <li className="menu-item">
-            <NavLink className="menu-value" to='/my-page/product'>Produktai</NavLink>
+            <NavLink className="menu-value" to='/product'>Produktai</NavLink>
           </li>
           <li className="menu-item">
-            <NavLink className="menu-value" to='/my-page/nature'>Gamta</NavLink>
+            <NavLink className="menu-value" to='/nature'>Gamta</NavLink>
           </li>
 
         </ul>
