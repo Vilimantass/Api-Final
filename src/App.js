@@ -31,10 +31,10 @@ function App() {
         <Route path='/my-page' element={<MyPage />} />
 
 
-        <Route path='/wedding' element={<Wedding />} />
-        <Route path='/portrait' element={<Portrait />} />
-        <Route path='/product' element={<Product />} />
-        <Route path='/nature' element={<Nature />} />
+        <Route path='/my-page/wedding' element={<Wedding />} />
+        <Route path='/my-page/portrait' element={<Portrait />} />
+        <Route path='/my-page/product' element={<Product />} />
+        <Route path='/my-page/nature' element={<Nature />} />
        
 
 
