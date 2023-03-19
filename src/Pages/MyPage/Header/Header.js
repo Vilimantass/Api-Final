@@ -6,24 +6,27 @@ import './Header.scss'
 const Header = () => {
   return (
     <div className='header'>
-      <NavLink className="main-logo" to='/mypage'><img src={MyPhotoLogo} alt="Photo Logo" /></NavLink>
+      <NavLink className="main-logo" to='/my-page'><img src={MyPhotoLogo} alt="Photo Logo" /></NavLink>
 
 
       <nav className="main">
         <ul className="main-menu">
           <li className="menu-item">
-            <NavLink className="menu-value" to='/mypage/wedding'>Šventės</NavLink>
-            </li>
+            <NavLink className="menu-value" to='/my-page'>Pagrindinis</NavLink>
+          </li>
           <li className="menu-item">
-            <NavLink className="menu-value" to='/mypage/Portrait'>Portretai</NavLink>
-            </li>
+            <NavLink className="menu-value" to='/my-page/wedding'>Šventės</NavLink>
+          </li>
           <li className="menu-item">
-            <NavLink className="menu-value" to='/mypage/Product'>Produktai</NavLink>
-            </li>
+            <NavLink className="menu-value" to='/my-page/portrait'>Portretai</NavLink>
+          </li>
           <li className="menu-item">
-            <NavLink className="menu-value" to='/mypage/Nature'>Gamta</NavLink>
-            </li>
-      
+            <NavLink className="menu-value" to='/my-page/product'>Produktai</NavLink>
+          </li>
+          <li className="menu-item">
+            <NavLink className="menu-value" to='/my-page/nature'>Gamta</NavLink>
+          </li>
+
         </ul>
       </nav>
     </div>

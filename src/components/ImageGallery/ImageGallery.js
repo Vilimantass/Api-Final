@@ -74,11 +74,11 @@ const ImageGallery = ({ galleryImages }) => {
 
       }
 
-      <br />
+      {/* <br />
       Current slide number: {slideNumber}
       <br />
       Total Slides: {galleryImages.length}
-      <br />
+      <br /> */}
       
       <br />
       

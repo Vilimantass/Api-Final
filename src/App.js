@@ -11,7 +11,7 @@ import Wedding from './Pages/MyPage/SecPage/Wedding';
 import Portrait from './Pages/MyPage/SecPage/Portrait';
 import Product from './Pages/MyPage/SecPage/Product';
 import Nature from './Pages/MyPage/SecPage/Nature';
-
+import ScrollTopButton from './components/ScrollTopButton/ScrollTopButton';
 
 
 
@@ -21,19 +21,20 @@ import Nature from './Pages/MyPage/SecPage/Nature';
 function App() {
   return (
     <div className='App'>
-      <MainNav />
+      <ScrollTopButton />
+      {/* <MainNav /> */}
 
       <Routes>
 
-        <Route path='/' element={<Main />} />
+        {/* <Route path='/' element={<Main />} /> */}
 
-        <Route path='/mypage' element={<MyPage />} />
+        <Route path='/my-page/' element={<MyPage />} />
 
 
-        <Route path='/mypage/wedding' element={<Wedding />} />
-        <Route path='/mypage/portrait' element={<Portrait />} />
-        <Route path='/mypage/product' element={<Product />} />
-        <Route path='/mypage/nature' element={<Nature />} />
+        <Route path='/my-page/wedding' element={<Wedding />} />
+        <Route path='/my-page/portrait' element={<Portrait />} />
+        <Route path='/my-page/product' element={<Product />} />
+        <Route path='/my-page/nature' element={<Nature />} />
        
 
 

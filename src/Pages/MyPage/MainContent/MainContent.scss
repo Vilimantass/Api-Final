@@ -8,6 +8,37 @@
     flex-direction: column;
     margin: 50px;
     gap: 50px;
+
+    :nth-child(odd) {
+
+        display: flex;
+        flex-direction: row-reverse;
+
+        .section-tab :nth-child(1) {
+
+            &:hover {
+
+                margin-left: 5%;
+                filter: drop-shadow(1px 2px 5px black);
+                transition-duration: 300ms;
+            }
+        }
+        
+    }
+
+    :nth-child(even) {
+
+        .section-tab :nth-child(1) {
+
+            &:hover {
+
+                margin-right: 5%;
+                filter: drop-shadow(1px 2px 5px black);
+                transition-duration: 300ms;
+            }
+        }
+
+    }
     
 
     .section-group {
@@ -23,6 +54,7 @@
             flex-direction: column;
         }
 
+        
 
         :nth-child(1) {
             
@@ -103,12 +135,7 @@
             min-width: 100%;
         
 
-            &:hover {
-
-                margin-left: 5%;
-                filter: drop-shadow(1px 2px 5px black);
-                transition-duration: 300ms;
-            }
+   
         }
         
     

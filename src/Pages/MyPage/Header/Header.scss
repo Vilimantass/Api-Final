@@ -4,7 +4,7 @@
     background-position: center;
     background-size: cover;
     padding: 20px 20px;
-    margin: 20px 0px;
+    // margin: 20px 0px;
 
 
     .main-logo {
@@ -21,6 +21,14 @@
             transition-duration: 250ms;
         }
 
+        img {
+
+        @media screen and (max-width: 450px) {
+
+            width: 90%;
+        }
+    }
+
     }
     
     
@@ -31,21 +39,81 @@
         display: flex;
         justify-content: center;
         background-color: rgba($color: #95d1ce, $alpha: 0.7);
-        filter: drop-shadow(5px 5px 5px black);
+        filter: drop-shadow(0px 2px 2px black);
         max-width: 1230px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 40px;
+
+        &:hover {
+
+            
+            filter: drop-shadow(0px 5px 5px black);
+            transition-duration: 250ms;
+
+        }
 
         .main-menu {
         
             display: flex;
-            max-width: 560px;
+            max-width: 860px;
             flex-wrap: wrap;
             justify-content: center;
             gap: 30px 30px;
             align-items: center;
             list-style-type: none;
             padding: 0;
+
+            a.active {
+
+
+                
+                    --b: 0.08em; /* border width */
+                    --c: 0.5em; /* corner size */
+                    --r: 0.2em; /* corner rounding */
+                    position: relative;
+                    margin: 1em auto;
+                    border: solid var(--b) transparent;
+                    padding: 0.25em;
+                    max-width: 23em;
+                    // font: 1.25em ubuntu;
+                    
+                    &::before {
+                        position: absolute;
+                        z-index: -1;
+                        inset: calc(-1*var(--b));
+                        border: inherit;
+                        border-radius: var(--r);
+                        background: linear-gradient(rgb(99, 64, 0), rgb(126, 93, 63), rgb(0, 68, 53)) border-box;
+                        --corner: 
+                            conic-gradient(from -90deg at var(--c) var(--c), red 25%, #0000 0) 
+                                0 0/ calc(100% - var(--c))  calc(100% - var(--c)) border-box;
+                        --inner: conic-gradient(red 0 0) padding-box;
+                        -webkit-mask: var(--corner), var(--inner);
+                        -webkit-mask-composite: source-out;
+                                        mask: var(--corner) subtract, var(--inner);
+                        content: ''
+                    
+                }
+                
+                    // color: rgb(75, 75, 75);
+                    // background-color: transparent;
+                    // text-decoration: none;
+                    // font-family: Garamond;
+                    // font-size: 200%;
+                    // font-weight: 400;
+                    // margin-top: 40px;
+                    // margin-bottom: 40px;
+                
+                    // filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+                  
+    
+                    // &:hover {
+        
+                    //     filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+                    // }
+                
+            }
             
             
 
