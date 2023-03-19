@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/my-page/static/css/main.14448f1e.css",
-    "main.js": "/my-page/static/js/main.0d091b14.js",
+    "main.js": "/my-page/static/js/main.40c7c223.js",
     "static/media/VIL_8163.jpg": "/my-page/static/media/VIL_8163.b87e5e728891041333b5.jpg",
-    "static/media/_VIL4023_opt.jpg": "/my-page/static/media/_VIL4023_opt.35b2670a6ae9142d5979.jpg",
+    "static/media/_VIL4023.jpg": "/my-page/static/media/_VIL4023.35b2670a6ae9142d5979.jpg",
     "static/media/VIL_8220 VIL_0438.jpg": "/my-page/static/media/VIL_8220 VIL_0438.16e98ef32ae3058c1704.jpg",
     "static/media/rsz_dsc_1395-2.jpg": "/my-page/static/media/rsz_dsc_1395-2.ba038155763fe670d2c2.jpg",
     "static/media/rsz_2wil_9729_pp.jpg": "/my-page/static/media/rsz_2wil_9729_pp.502342ab8b8478eedb7a.jpg",
@@ -19,9 +19,9 @@
     "static/media/VIL_8191 VIL_0209.jpg": "/my-page/static/media/VIL_8191 VIL_0209.0152dfa67234f61254f7.jpg",
     "static/media/_VIL8244.jpg": "/my-page/static/media/_VIL8244.574a0c13170a66e16ce0.jpg",
     "static/media/Gamta1.jpg": "/my-page/static/media/Gamta1.52258fbae350114f9596.jpg",
-    "static/media/_VIL3974_opt_opt.jpg": "/my-page/static/media/_VIL3974_opt_opt.52258fbae350114f9596.jpg",
+    "static/media/_VIL3974.jpg": "/my-page/static/media/_VIL3974.52258fbae350114f9596.jpg",
     "static/media/rsz_dsc_1414.jpg": "/my-page/static/media/rsz_dsc_1414.1fbf14911cf82b694242.jpg",
-    "static/media/_VIL3978_opt_opt.jpg": "/my-page/static/media/_VIL3978_opt_opt.a5821ba51c04fa47d910.jpg",
+    "static/media/_VIL3978.jpg": "/my-page/static/media/_VIL3978.a5821ba51c04fa47d910.jpg",
     "static/media/rsz_dsc_3490_sharp.jpg": "/my-page/static/media/rsz_dsc_3490_sharp.6c08dc95cbe33021a660.jpg",
     "static/media/_VIL8233.jpg": "/my-page/static/media/_VIL8233.8859e6be4e73f51f3d24.jpg",
     "static/media/rsz_1vf8_0287-2.jpg": "/my-page/static/media/rsz_1vf8_0287-2.8e843b63748f2d4c1e3a.jpg",
@@ -51,10 +51,10 @@
     "static/media/MyPhotoLogo.webp": "/my-page/static/media/MyPhotoLogo.968e902df111db5257ac.webp",
     "index.html": "/my-page/index.html",
     "main.14448f1e.css.map": "/my-page/static/css/main.14448f1e.css.map",
-    "main.0d091b14.js.map": "/my-page/static/js/main.0d091b14.js.map"
+    "main.40c7c223.js.map": "/my-page/static/js/main.40c7c223.js.map"
   },
   "entrypoints": [
     "static/css/main.14448f1e.css",
-    "static/js/main.0d091b14.js"
+    "static/js/main.40c7c223.js"
   ]
 }
