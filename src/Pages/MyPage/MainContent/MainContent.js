@@ -15,28 +15,28 @@ function MainContent() {
         {
             title: "Šventės",
             pharagraph: "Svarbiausios jūsų dienos",
-            linkTo: "/vilimantas/wedding",
+            linkTo: "/my-page/wedding",
             image: wedding,
             alt: "Švenčių foto"
         },
         {
             title: "Portretai",
             pharagraph: "Jūsų diena sau",
-            linkTo: "/vilimantas/portrait",
+            linkTo: "/my-page/portrait",
             image: portrait,
             alt: "Portretų foto"
         },
         {
             title: "Produktai",
             pharagraph: "Jūsų produktai ir gaminiai",
-            linkTo: "/vilimantas/product",
+            linkTo: "/my-page/product",
             image: product,
             alt: "Produktų foto"
         },
         {
             title: "Gamta",
             pharagraph: "Sugįžtant į gamtą",
-            linkTo: "/vilimantas/nature",
+            linkTo: "/my-page/nature",
             image: nature,
             alt: "Gamtos foto",
         },
